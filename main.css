@@ -1,33 +1,22 @@
 body {
-    position: relative;
     margin:0;
     font-family:Arial;
-    background-color: hsl(3
-    32, 86%, 91%);
-
-    height: 2000px;
+    background-image: linear-gradient(to right,rgba(0, 0, 255, 0.459) 0%,rgba(255, 0, 0, 0.562) 100%)
 }
 
 .topnav {
-display: flexbox;
-  position: fixed;
-  top: 0;
-  padding-right: 15vw;
-  width: 100vw;
-  margin: 0 auto;
-  overflow: visible;
-  background-color: hsl(327, 79%, 15%);
-}
+  overflow: hidden;
+  background-image: linear-gradient(to bottom,rgba(0, 0, 255, 0.205) 0%,rgba(255, 0, 0, 0.246) 100%)
 
-#navSpan{
-    display: inline-flex;
-    color: #fff;
 }
 
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: black;
+  font-style: italic;
+  font-weight: bold;
+  letter-spacing: 3px;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -35,7 +24,8 @@ display: flexbox;
 }
 
 .active {
-  background-color: rgb(144, 151, 144);
+  background-image: linear-gradient(to bottom,rgba(0, 0, 255, 0.24) 0%,rgba(255, 0, 0, 0.288) 100%);
+
   color: white;
 }
 
@@ -52,7 +42,10 @@ display: flexbox;
   font-size: 17px;    
   border: none;
   outline: none;
-  color: white;
+  color: black;
+  font-style: italic;
+  font-weight: bold;
+  letter-spacing: 3px;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
@@ -121,29 +114,3 @@ display: flexbox;
     text-align: left;
   }
 }
-
-
-.targetDiv{
-    display: none;
-    position: relative;
-    top: 10vw;
-
-}
-
-.scrollTop {
-    position: fixed;
-    right: 10%;
-    bottom: 10px;
-    font-size: inherit;
-    padding: 2px;
-    opacity: 0;
-    transition: all 0.4s ease-in-out 0s;
- }
- 
- .topButton{
-   font-size: inherit;
-   color: #fff;
-   background-color: blue;
-   opacity: 100;
- }
- 
