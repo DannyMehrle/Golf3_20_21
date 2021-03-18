@@ -22,7 +22,7 @@
   }
   
   
-  /* begining of menu bar */
+  /* begining of menu bar 
   .navbar {
     overflow: hidden;
     background-color: #236AB9;
@@ -90,7 +90,8 @@
   /* ending of menu bar */
   
   
-  /* begining of hole nav */
+   begining of hole nav */
+
   #matchHeader {
     /* width: 100%; */
     overflow: hidden;

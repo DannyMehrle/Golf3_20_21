@@ -6,7 +6,7 @@ function myFunction() {
       x.className = "topnav";
     }
   }
-
+  $(".sectionsHide").slideUp(900);
   
   $(document).ready(function () {
 

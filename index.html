@@ -6,7 +6,10 @@
     <title>Practice</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='mainMatches.css'>
     <script src='main.js'></script>
+    <script src='htmlCard.js'></script>
+    <script src='classesData.js'></script>
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -14,53 +17,26 @@
 <body>
 
 <div class="topnav" id="myTopnav">
-  <a href="#league" class="active">League</a>
-  <a href="#course">Course</a>
-  <a href="#teams">Teams</a>
-  <a href="#players">Players</a>
+  <a href="#standings" id="linkStandings" class="links active">Standings</a>
+  <a href="#league" >League</a>
+  <a href="#course" id="linkCourses" class="links">Course</a>
+  <a href="#teams" id="linkTeams" class="links">Teams</a>
+  <a href="#players" id="linkPlayers" class="links">Players</a>
   <div class="dropdown">
-    <button class="dropbtn">Dropdown 
+    <button class="dropbtn">Weeks Matches 
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-      <a href="#">Match 1</a>
-      <a href="#">Match 2</a>
-      <a href="#">Match 3</a>
-      <a href="#">Match 4</a>
+      <a href="#" id="linkMatch1" class="links">Match 1</a>
+      <a href="#" id="linkMatch2" class="links" >Match 2</a>
+      <a href="#" id="linkMatch3" class="links">Match 3</a>
+      <a href="#" id="linkMatch4" class="links">Match 4</a>
     </div>
   </div> 
   <a href="#about">About</a>
   <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
 
-<d    <section id="section1Menu">
-  <div class="navbar">
-      <a id="linkStandings" class="links">Standings</a>
-      <div class="dropdown">
-        <button class="dropbtn">League 
-          <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-          <a id="linkSchedule" class="links">Schedule</a>
-          <a id="linkCourses" class="links">Courses</a>
-          <a id="linkTeams" class="links">Teams</a>
-          <a id="linkPlayers" class="links">Players</a>
-        </div>
-      </div> 
-      <div class="dropdown">
-          <button class="dropbtn">Matches 
-            <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-content">
-              <a id="linkMatch1" class="links">Match1</a>
-              <a id="linkMatch2" class="links">Match2</a>
-              <a id="linkMatch3" class="links">Match3</a>
-              <a id="linkMatch4" class="links">Match4</a>
-          </div>
-        </div> 
-        <h1 class="headMatch"></h1>
-    </div>
-</section>
 
 <section id="sectionStandings" class="sectionsHide">
   <div>
