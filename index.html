@@ -33,12 +33,81 @@
   <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
 
-<div style="padding-left:16px">
-  <h2>Responsive Topnav with Dropdown</h2>
-  <p>Resize the browser window to see how it works.</p>
-  <p>Hover over the dropdown button to open the dropdown menu.</p>
-</div>
+<d    <section id="section1Menu">
+  <div class="navbar">
+      <a id="linkStandings" class="links">Standings</a>
+      <div class="dropdown">
+        <button class="dropbtn">League 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a id="linkSchedule" class="links">Schedule</a>
+          <a id="linkCourses" class="links">Courses</a>
+          <a id="linkTeams" class="links">Teams</a>
+          <a id="linkPlayers" class="links">Players</a>
+        </div>
+      </div> 
+      <div class="dropdown">
+          <button class="dropbtn">Matches 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+              <a id="linkMatch1" class="links">Match1</a>
+              <a id="linkMatch2" class="links">Match2</a>
+              <a id="linkMatch3" class="links">Match3</a>
+              <a id="linkMatch4" class="links">Match4</a>
+          </div>
+        </div> 
+        <h1 class="headMatch"></h1>
+    </div>
+</section>
 
+<section id="sectionStandings" class="sectionsHide">
+  <div>
+      hello sectionStandings
+  </div>
+</section>
+
+<section id="sectionSchedule" class="sectionsHide">
+  <div>
+      hello sectionSchedule
+  </div>
+</section>
+
+<section id="sectionCourses" class="sectionsHide">
+<div>
+  hello sectionCourses
+</div>
+</section>
+
+<section id="sectionTeams" class="sectionsHide">
+<div>
+  hello sectionTeams
+</div>
+</section>
+
+<section id="sectionPlayers" class="sectionsHide">
+<div>
+  hello sectionPlayers
+</div>
+</section>
+
+<section id="sectionMatch" class="sectionsHide">
+
+
+<div id="navHole" >    <script> displayHeadNavHole(cCard, cPlyer, cHole); </script> </div>
+
+
+
+<div id= "card">       <script> cardsPerHole(cCard);  </script> </div>
+
+
+<div id="numbers">      <script> enterNumberHole(cCard); </script>    </div> 
+
+    
+<div id="teamPts">  <script> teamCard(cCard); </script> </div>
+   
+</section>
 </body>
 
 </html>
