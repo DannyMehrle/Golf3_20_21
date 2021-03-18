@@ -104,7 +104,7 @@ function enterNumberHole(currCard){
 function teamCard(currCard){
     $(` #teamPts `).append(`   
     <div class="grid-container-team-pts">
-    <div class="logo hdScrCrd"><img src="shopping.png" alt="GOLF LOGO" width="40" height="40"></div>
+    <div class="logo hdScrCrd"><img src="golfclub.png" alt="GOLF LOGO" width="40" height="40"></div>
     <div class="headerCss12  hdScrCrd"> A PLAYER POINTS</div>
     <div class="headerCss13  hdScrCrd"> B PLAYER POINTS</div>
     <div class="headerCss14  hdScrCrd"> TEAM POINTS</div>

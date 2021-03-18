@@ -4,25 +4,38 @@
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Practice</title>
+             
+                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>             
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='mainMatches.css'>
     <script src='main.js'></script>
     <script src='htmlCard.js'></script>
     <script src='classesData.js'></script>
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+   
 </head>
 <body>
 
 <div class="topnav" id="myTopnav">
-  <a href="#standings" id="linkStandings" class="links active">Standings</a>
-  <a href="#league" >League</a>
-  <a href="#course" id="linkCourses" class="links">Course</a>
-  <a href="#teams" id="linkTeams" class="links">Teams</a>
-  <a href="#players" id="linkPlayers" class="links">Players</a>
+  <a href="#standings" id="linkStandings">Standings</a>
+  
   <div class="dropdown">
+    <button class="dropbtn">League 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#course" id="linkCourses" class="links">Course</a>
+      <a href="#teams" id="linkTeams" class="links">Teams</a>
+      <a href="#players" id="linkPlayers" class="links">Players</a>
+
+    </div>
+  </div> 
+
+
+
+    <div class="dropdown">
     <button class="dropbtn">Weeks Matches 
       <i class="fa fa-caret-down"></i>
     </button>
