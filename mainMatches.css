@@ -12,7 +12,7 @@
     margin: 0;
     padding: 0;
     background: linear-gradient(to left, #d4e4f78f 1%, #95c1f7 103%);
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 800;
   }
   
@@ -266,7 +266,7 @@
     align-items: center;
     justify-items: center;
     justify-content: center;
-    padding: 5px 5px;
+    padding: 3px 3px;
     font-size: 16px;
     box-shadow: 6px 6px #888;
   }
