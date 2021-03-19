@@ -1,34 +1,33 @@
 /* #D4E4F7#236AB9#FC7307#B85B14#341C09
  */
 
- html {
-    margin: 5px;
-    background: linear-gradient(to left, #d4e4f78f 1%, #95c1f7 103%);
-  
-  
-  }
-  
-  body {
-    margin: 0;
-    padding: 0;
-    background: linear-gradient(to left, #d4e4f78f 1%, #95c1f7 103%);
-    font-size: 12px;
-    font-weight: 500;
-  }
-  
-  .sectionsHide {
-    display: none;
-  
-  }
-  
-  
-  /* begining of menu bar 
+html {
+  margin: 5px;
+  background: linear-gradient(toleft, #d4e4f78f 1%, #95c1f7 103%);
+
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(toleft, #d4e4f78f 1%, #95c1f7 103%);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.sectionsHide {
+  display: none;
+
+}
+
+
+/* begining of menu bar
   .navbar {
     overflow: hidden;
     background-color: #236AB9;
     width: 100%;
   }
-  
   .navbar a {
     float: left;
     color: #D4E4F7;
@@ -38,12 +37,10 @@
     font-size: 25px;
     font-style: italic;
   }
-  
   .dropdown {
     float: left;
     overflow: hidden;
   }
-  
   .dropdown .dropbtn {
     border: none;
     outline: none;
@@ -54,12 +51,10 @@
     font-size: 20px;
     font-style: italic;
   }
-  
   .navbar a:hover,
   .dropdown:hover .dropbtn {
     background-color: #341C09;
   }
-  
   .dropdown-content {
     display: none;
     position: absolute;
@@ -69,7 +64,6 @@
     font-size: 20px;
     z-index: 1;
   }
-  
   .dropdown-content a {
     float: none;
     color: #236AB9;
@@ -78,245 +72,265 @@
     display: block;
     text-align: left;
   }
-  
   .dropdown-content a:hover {
     background-color: #ddd;
   }
-  
   .dropdown:hover .dropdown-content {
     display: block;
   }
-  
   /* ending of menu bar */
-  
-  
-   begining of hole nav */
 
-  #matchHeader {
-    /* width: 100%; */
-    overflow: hidden;
-    background-color: #2196F3;
-    margin-bottom: 1px;
-  }
-  
-  #nextHole,
-  #prevHole {
-    display: grid;
-    align-items: center;
-    text-align: center;
-    vertical-align: middle;
-    cursor: pointer;
-  }
-  
-  .cssHoleNav {
-    display: grid;
-  
-    grid-template-columns: 8% 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 8%;
-    justify-items: center;
-    padding: 10px;
-    font-weight: 900;
-    background-color: #ccc;
-    
-  
-  }
-  
-  .currHoleCss {
-    color: #236ab9;
-    font-weight: 900;
-    text-align: left;
-    padding: 0;
-    margin: 0;
-   
-  }
-  
-  .leftArrow,
-  .rightArrow {
-    display: grid;
-  
-    cursor: pointer;
-  
-  }
-  
-  /* ending of hole nav */
-  
-  .cssCardContainer {
-    display: grid;
-    grid-template-columns: auto 70px 70px 70px 70px 70px auto;
-    grid-template-rows: auto auto auto auto auto;
-    grid-gap: 1px 1px;
-    margin-top: 15px;
-    justify-content: center;
-    align-content: center;
-    padding: 10px;
-  }
-  
-  
-  
-  .gItemCrd,
-  .team1Css,
-  .team2Css {
-    background-color: #ccc;
-    border: .1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    box-shadow: 6px 6px #888;
-    text-align: center;
-  }
-  
-  h1 {
-    color: rgb(6, 248, 46);
-    font-family: cursive;
-    display: grid;
-    justify-content: end;
-    margin: 10px;
-    
-  }
-  
-  .cssNumberPad {
-    
-    display: grid;
-    justify-content: center;
-    color: black;  
-    gap: .5px;
-    margin: 20px auto;
-    padding: 10px;
-    width: 400px;
-    background-color: lightgray;
-    border: 1px solid black;
-    box-shadow: 6px 6px #888;
-    border-radius: 3px;
-    grid-template-areas:
-    'number1 number2 number3 number4 number5 number6'
-    
-    'number7 number8 number9  numberMinus  numberLogo numberPlus';
-  
-  }
-  
-  
-  #number1 { grid-area: number1; }
-  #number2 { grid-area: number2; }
-  #number3 { grid-area: number3; }
-  #number4 { grid-area: number4; }
-  #number5 { grid-area: number5; }
-  #number6 { grid-area: number6; }
-  #number7 { grid-area: number7; }
-  #number8 { grid-area: number8; }
-  #number9 { grid-area: number9; }
-  #numberMinus { grid-area: numberMinus; }
-  #numberLogo { grid-area: numberLogo; }
-  #numberPlus { grid-area: numberPlus; } 
-  
-  .enterScores {
-    display: grid;
-    padding: 10px;
-    font-size: 45px;
-    align-items: center;
-    justify-items: center;
-    width: 45px;
-    height: 45px;
-    font-weight: bold;
-    color: black;
-    background-color: white;
-    border-radius: 5px;
-    margin: 1px;
-  }
-  
-  .enterScores:hover {
-    background: lightgray;
-  
-  }
-  [class*=strkHole]{
-    border-left:5px solid black;
-    border-right:5px solid black;
-    
-  }
-  
-  #strksP1{
-    border-top:5px solid black;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-  }
-  
-  
-  #strksP4{
-    border-bottom:5px solid black;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-  }
-  
-  
-  .hdScrCrd {
-    background-color: #ccc;
-    display: grid;
-    align-items: center;
-    justify-items: center;
-    justify-content: center;
-    text-align: center;
-    box-shadow: 6px 6px #888;
-    padding: 5px;
-  }
-  
-  .team1Css {
-    background-color: #c0dbfc;
-  
-  }
-  
-  .team1Css,
-  .team2Css {
-    display: grid;
-    align-items: center;
-    justify-items: center;
-    justify-content: center;
-    padding: 3px 3px;
-    font-size: 16px;
-    box-shadow: 6px 6px #888;
-  }
-  
-  .team2Css {
-    background-color: whitesmoke;
-  }
-  
-  [class*=strkHole]:hover {
-    background: lightgray;
-  }
-  
-  .editHole {
-    background: darkgray;
-    color: white;
-  }
-  
-  .grid-container-team-pts {
-    display: grid;
-    grid-template-columns: 200px auto auto auto auto;
-    grid-template-rows: 65px 35px 35px;
-    gap: 2px;
-    justify-content: center;
-  
-    margin: 5px;
-    border-radius: 5px;
-    padding: 15px;
-  
-  }
-  
-  .gItmTmPts {
-    border: 2px solid rgba(0, 0, 0, 0.8);
-    padding: 5px 5px;
-  }
-  
-  .headerCss {
-    background-color: #ccc;
-    font-size: 12px;
-    overflow: wrap;
-    display: grid;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  
-  .logoNumber {
-    cursor: pointer;
-    display: grid;
-    justify-items: center;
-    align-items: center;
-   
-  }
-  
+
+begining of hole nav */
+
+#matchHeader {
+  /* width: 100%; */
+  overflow: hidden;
+  background-color: #2196F3;
+  margin-bottom: 1px;
+}
+
+#nextHole,
+#prevHole {
+  display: grid;
+  align-items: center;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.cssHoleNav {
+  display: grid;
+
+  grid-template-columns: 8% 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 8%;
+  justify-items: center;
+  padding: 10px;
+  font-weight: 900;
+  background-color: #ccc;
+
+
+}
+
+.currHoleCss {
+  color: #236ab9;
+  font-weight: 900;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+
+}
+
+.leftArrow,
+.rightArrow {
+  display: grid;
+
+  cursor: pointer;
+
+}
+
+/* ending of hole nav */
+
+.cssCardContainer {
+  display: grid;
+  grid-template-columns: auto 70px 70px 70px 70px 70px auto;
+  grid-template-rows: auto auto auto auto auto;
+  grid-gap: 1px 1px;
+  margin-top: 15px;
+  justify-content: center;
+  align-content: center;
+  padding: 10px;
+}
+
+
+
+.gItemCrd,
+.team1Css,
+.team2Css {
+  background-color: #ccc;
+  border: .1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  box-shadow: 6px 6px #888;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(6, 248, 46);
+  font-family: cursive;
+  display: grid;
+  justify-content: end;
+  margin: 10px;
+
+}
+
+.cssNumberPad {
+
+  display: grid;
+  justify-content: center;
+  color: black;
+  gap: .5px;
+  margin: 20px auto;
+  padding: 10px;
+  width: 400px;
+  background-color: lightgray;
+  border: 1px solid black;
+  box-shadow: 6px 6px #888;
+  border-radius: 3px;
+  grid-template-areas:
+  'number1 number2 number3 number4 number5 number6'
+
+  'number7 number8 number9  numberMinus  numberLogo numberPlus';
+
+}
+
+
+#number1 {
+  grid-area: number1;
+}
+#number2 {
+  grid-area: number2;
+}
+#number3 {
+  grid-area: number3;
+}
+#number4 {
+  grid-area: number4;
+}
+#number5 {
+  grid-area: number5;
+}
+#number6 {
+  grid-area: number6;
+}
+#number7 {
+  grid-area: number7;
+}
+#number8 {
+  grid-area: number8;
+}
+#number9 {
+  grid-area: number9;
+}
+#numberMinus {
+  grid-area: numberMinus;
+}
+#numberLogo {
+  grid-area: numberLogo;
+}
+#numberPlus {
+  grid-area: numberPlus;
+}
+
+.enterScores {
+  display: grid;
+  padding: 10px;
+  font-size: 45px;
+  align-items: center;
+  justify-items: center;
+  width: 45px;
+  height: 45px;
+  font-weight: bold;
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  margin: 1px;
+}
+
+.enterScores:hover {
+  background: lightgray;
+
+}
+[class*=strkHole] {
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+
+}
+
+#strksP1 {
+  border-top: 5px solid black;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+
+#strksP4 {
+  border-bottom: 5px solid black;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+
+.hdScrCrd {
+  background-color: #ccc;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 6px 6px #888;
+  padding: 5px;
+}
+
+.team1Css {
+  background-color: #c0dbfc;
+
+}
+
+.team1Css,
+.team2Css {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  padding: 3px 3px;
+  font-size: 16px;
+  box-shadow: 6px 6px #888;
+}
+
+.team2Css {
+  background-color: whitesmoke;
+}
+
+[class*=strkHole]:hover {
+  background: lightgray;
+}
+
+.editHole {
+  background: darkgray;
+  color: white;
+}
+
+.grid-container-team-pts {
+  display: grid;
+  grid-template-columns: 200px auto auto auto auto;
+  grid-template-rows: 65px 35px 35px;
+  gap: 2px;
+  justify-content: center;
+
+  margin: 5px;
+  border-radius: 5px;
+  padding: 15px;
+
+}
+
+.gItmTmPts {
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  padding: 5px 5px;
+}
+
+.headerCss {
+  background-color: #ccc;
+  font-size: 12px;
+  overflow: wrap;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.logoNumber {
+  cursor: pointer;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+
+}
