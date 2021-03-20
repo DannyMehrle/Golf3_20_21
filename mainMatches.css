@@ -157,7 +157,8 @@
   .team2Css {
     background-color: #ccc;
     border: .1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
+    padding: 10px;
+    font-size: 12px;
     box-shadow: 6px 6px #888;
     text-align: center;
   }
@@ -178,8 +179,8 @@
     color: black;  
     gap: .5px;
     margin: 20px auto;
-    padding: 10px;
-    width: 400px;
+    padding: 15px;
+    width: 270px;
     background-color: lightgray;
     border: 1px solid black;
     box-shadow: 6px 6px #888;
@@ -208,11 +209,11 @@
   .enterScores {
     display: grid;
     padding: 10px;
-    font-size: 45px;
+    font-size: 20px;
     align-items: center;
     justify-items: center;
-    width: 45px;
-    height: 45px;
+    width: 25px;
+    height: 25px;
     font-weight: bold;
     color: black;
     background-color: white;
@@ -260,14 +261,14 @@
   
   }
   
-  .team1Css,
-  .team2Css {
+.team1Css,
+.team2Css {
     display: grid;
     align-items: center;
     justify-items: center;
     justify-content: center;
     padding: 5px 5px;
-    font-size: 16px;
+    font-size: 12px;
     box-shadow: 6px 6px #888;
   }
   
