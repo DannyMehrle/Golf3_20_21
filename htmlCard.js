@@ -37,11 +37,11 @@ function cardsPerHole(currCard){
     $(` #card `).append(`<div class="cssCardContainer ">
         <div class="gItemCrd  headerCss" >NAME</div>
         
-        <div class="gItemCrd  headerCss" >PLYR HDCP / HOLE</div>
+        <div class="gItemCrd  headerCss" >PLYR HDCP</div>
         <div class="gItemCrd  headerCss" >STROKES</div>
         <div class="gItemCrd  headerCss" >POINTS</div>
         <div class="gItemCrd  headerCss" >GROSS</div>
-        <div class="gItemCrd  headerCss" >PLYR TOT HDCP</div>
+        <div class="gItemCrd  headerCss" >TOTAL HDCP</div>
         <div class="gItemCrd  headerCss" >NET</div>         
         <div class="gItemCrd  team1Css"                     id="nameP1">Harry</div>
        
